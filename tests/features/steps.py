@@ -1,4 +1,5 @@
-from lettuce import *
+from lettuce import world
+from lettuce.decorators import step
 
 @step('I have the number (\d+)')
 def have_the_number(step, number):
